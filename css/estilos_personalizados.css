@@ -1,18 +1,36 @@
 /*================
 Estilos Body
 =================*/
-.blog-body{
+/*.blog-body{
     background: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 /*==========================
 Estilos Contenedor Principal
 ============================*/
-.contenedor-principal{
-    
+
+header{
+    min-height: auto;
+    border: 1px solid black;
 }
-.header{
-    min-height: 300px;
-    border: 3px solid red;
+.logo{
+    margin-top: 5px;
+    margin-bottom: 2px;;
+    border: 1px solid black;
+}
+.redes-sociales{
+    margin-top: 150px;
+    border: 1px solid black;
+}
+ul li{
+    color: blue;
+}
+.row:after{
+    clear: both;
+}
+@media (max-width: 768px){
+    .redes-sociales{
+        margin-top: 20px;
+    }
 }
