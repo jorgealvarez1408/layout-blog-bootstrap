@@ -1,31 +1,20 @@
 /*================
 Estilos Body
 =================*/
-/*.blog-body{
+.blog-body{
     background: url(../img/fondo.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}*/
+}
 /*==========================
 Estilos Contenedor Principal
 ============================*/
-
 header{
-    min-height: auto;
-    border: 1px solid black;
+    background: #940a37;
 }
-.logo{
-    border: 1px solid black;
-}
-.redes-sociales{
-    border: 1px solid black;
-}
-.redes{
-    background: red;
-}
-ul li{
-    margin: 5px;
-    color: blue;
+.jumbotron{
+    background: #848484;
 }
 .row:after{
     clear: both;
