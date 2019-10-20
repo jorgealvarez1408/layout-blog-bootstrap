@@ -16,6 +16,9 @@ header{
 .jumbotron{
     background: #848484;
 }
+a:hover{
+    background-color: blueviolet;
+}
 .row:after{
     clear: both;
 }
